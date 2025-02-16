@@ -1,0 +1,63 @@
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Tarjeta de login */
+  .login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Título del formulario */
+  .titulo-login {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Campos del formulario */
+  .full-width {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Iconos en los campos */
+  mat-icon {
+    color: #666;
+  }
+  
+  /* Botón de inicio de sesión */
+  button[mat-raised-button] {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Enlace de recuperación de contraseña */
+  .enlace-recuperacion {
+    margin-top: 15px;
+  }
+  
+  .enlace {
+    color: #2575fc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .enlace:hover {
+    text-decoration: underline;
+  }
+  
+  /* Efecto hover en el botón */
+  button[mat-raised-button]:hover {
+    background-color: #1a5bbf;
+  }

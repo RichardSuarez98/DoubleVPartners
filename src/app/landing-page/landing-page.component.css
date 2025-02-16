@@ -1,0 +1,79 @@
+/* Contenedor principal */
+.welcome-container {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Overlay para mejorar la legibilidad */
+  .welcome-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Contenido de bienvenida */
+  .welcome-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  /* Título de bienvenida */
+  .welcome-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Subtítulo de bienvenida */
+  .welcome-subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Botón de ingreso */
+  .welcome-button {
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #2575fc; /* Color primario */
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .welcome-button:hover {
+    background-color: #1a5bbf; /* Color más oscuro al hacer hover */
+    transform: scale(1.05); /* Efecto de escala al hacer hover */
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .welcome-title {
+      font-size: 36px;
+    }
+  
+    .welcome-subtitle {
+      font-size: 18px;
+    }
+  
+    .welcome-button {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  }

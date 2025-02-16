@@ -1,0 +1,28 @@
+<h2>{{titulo}}</h2>
+<div class="login-container">
+    <div class="login-card">
+      <h2 class="titulo-login">DoubleVPartners</h2>
+      <form (submit)="guardarCambios()" [formGroup]="form" class="login-form">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Usuario</mat-label>
+          <input matInput [formControl]="form.controls.usuario" required>
+          <mat-error>{{obtenerMensajeErrorUsuario()}}</mat-error>
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Contraseña</mat-label>
+          <input matInput [formControl]="form.controls.password" type="password" required>
+          <mat-error>{{obtenerMensajeErrorPassword()}}</mat-error>
+        </mat-form-field>
+  
+        <div class="contenedor-botones">
+            <button mat-flat-button type="submit" [disabled]="form.invalid" class="full-width">Iniciar Sesión</button>
+        </div>
+  
+        <!-- Enlace de recuperación de contraseña -->
+        <div class="enlace-recuperacion">
+          <a href="#" routerLink="/registrar">Registrarse</a>
+        </div>
+      </form>
+    </div>
+  </div>

@@ -1,0 +1,30 @@
+<mat-toolbar>
+  <span>
+      <a routerLink="" mat-button style="color: white; font-weight: bold;">DoubleVPartners</a>
+  </span>
+
+
+  <app-autorizado rol="admin" >
+      <ng-container autorizado>
+          <div>
+              <a mat-button routerLink="persona" style="color: white; font-weight: bold;">Persona</a>
+          </div>
+      </ng-container>
+  </app-autorizado>
+
+  <div class="espacio"></div>
+
+  <app-autorizado style="display:inline">
+      <ng-container autorizado>
+          <span class="saludo">Bienvenido, {{seguridadService.obtenerCampoJWT('unique_name')}}</span>
+          <a mat-button (click)="seguridadService.logout()" style="color: white; font-weight: bold;">Salir</a>
+      </ng-container>
+
+      <ng-container noAutorizado>
+          <a mat-button routerLink="login" style="color: white;">Login</a>
+          <a mat-button routerLink="registrar" style="color: white;">Registro</a>
+      </ng-container>
+  </app-autorizado>
+
+ 
+</mat-toolbar>

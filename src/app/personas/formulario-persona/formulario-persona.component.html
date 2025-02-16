@@ -1,0 +1,38 @@
+<form [formGroup]="form" (submit)="guardarCambios()">
+    <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input matInput  [formControl]="this.form.controls.nombres">
+        <mat-error>{{obteneMensajeErrorNombres()}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Apellido</mat-label>
+        <input matInput  [formControl]="this.form.controls.apellidos">
+        <mat-error>{{obteneMensajeErrorApellidos()}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Identificación</mat-label>
+        <input matInput  [formControl]="this.form.controls.numeroIdentificacion">
+        <mat-error>{{obteneMensajeErrorIdentificacion()}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput  [formControl]="this.form.controls.email">
+        <mat-error>{{obteneMensajeErrorEmail()}}</mat-error>
+    </mat-form-field>
+
+    <span>CED-<span>Cedula,</span></span><span>PAS-<span>Pasaporte,</span></span><span>RUC-<span>Ruc</span></span>
+    <mat-form-field appearance="outline">
+        <mat-label>Tipo de Identificación</mat-label>
+        <input matInput  [formControl]="this.form.controls.tipoIdentificacion" maxlength="3">
+        <mat-error>{{obteneMensajeErrorTipoIdentificacion()}}</mat-error>
+    </mat-form-field>
+
+    <div>
+        <button mat-flat-button 
+        type="submit" [disabled]="form.invalid" >Guardar Cambios</button>
+        <a mat-stroked-button routerLink="/persona">Cancelar</a>        
+    </div>
+</form>
