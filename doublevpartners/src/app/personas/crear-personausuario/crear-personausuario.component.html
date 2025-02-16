@@ -1,0 +1,55 @@
+<div class="registro-container">
+    <div class="registro-card">
+      <h2 class="titulo-registro">Registrarse</h2>
+      <form [formGroup]="form" (submit)="guardarCambios()" class="registro-form">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Nombre</mat-label>
+          <input matInput [formControl]="this.form.controls.nombres" required>
+          <mat-error>{{obteneMensajeErrorNombres()}}</mat-error>
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Apellido</mat-label>
+          <input matInput [formControl]="this.form.controls.apellidos" required>
+          <mat-error>{{obteneMensajeErrorApellidos()}}</mat-error>
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Identificación</mat-label>
+          <input matInput [formControl]="this.form.controls.numeroIdentificacion" required>
+          <mat-error>{{obteneMensajeErrorIdentificacion()}}</mat-error>
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Email</mat-label>
+          <input matInput [formControl]="this.form.controls.email" type="email" required>
+          <mat-error>{{obteneMensajeErrorEmail()}}</mat-error>
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Tipo de Identificación</mat-label>
+          <input matInput [formControl]="this.form.controls.tipoIdentificacion" maxlength="3" required>
+          <mat-error>{{obteneMensajeErrorTipoIdentificacion()}}</mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Usuario</mat-label>
+            <input matInput [formControl]="form.controls.usuario" >
+            <mat-error>{{obteneMensajeErrorUsuario()}}</mat-error>
+          </mat-form-field>
+    
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Contraseña</mat-label>
+            <input matInput [formControl]="form.controls.pass" type="password" >
+            <mat-error>{{obteneMensajeErrorPass()}}</mat-error>
+          </mat-form-field>
+  
+  
+        <div class="contenedor-botones">
+            <button mat-flat-button 
+        type="submit" [disabled]="form.invalid" class="full-width">Guardar Cambios</button>
+        <a mat-stroked-button routerLink="/persona" class="full-width">Cancelar</a>  
+        </div>
+      </form>
+    </div>
+  </div>

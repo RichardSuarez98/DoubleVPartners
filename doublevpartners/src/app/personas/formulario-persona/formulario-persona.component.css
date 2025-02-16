@@ -1,0 +1,15 @@
+button{
+    margin-right: 1rem;
+}
+
+mat-form-field{
+    width: 100%;
+}
+
+.contenedor-botones{
+    margin-top: 2rem;
+}
+
+.enabled-button {
+    background-color: #BE185D; /* Color para el estado habilitado */
+  }

@@ -1,0 +1,40 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  mat-toolbar{
+    background-color: #BE185D;
+    color: white!important;
+  }
+  
+  .mat-toolbar {
+    color: white!important;
+  }
+  
+  mat-toolbar mat-button {
+    color: white!important;
+  }
+  
+  mat-toolbar example-icon mat-icon {
+    color: white!important;
+  }
+  
+  mat-toolbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+} 
+
+app-autorizado {
+    display: flex;
+}
+
+.espacio{
+    flex: 1 1 auto
+}
+
+.saludo {
+    font-size: 18px;
+    display: inline
+}

@@ -1,0 +1,70 @@
+/* Contenedor principal */
+.registro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  /* Tarjeta de registro */
+  .registro-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Título del formulario */
+  .titulo-registro {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .full-width {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  mat-icon {
+    color: #666;
+  }
+  
+  .leyenda-tipos span {
+    font-weight: 500;
+  }
+  
+  /* Botones de acción */
+  .contenedor-botones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button[mat-raised-button],
+  a[mat-stroked-button] {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  button[mat-raised-button] {
+    background-color: #2575fc;
+    color: white;
+  }
+  
+  button[mat-raised-button]:hover {
+    background-color: #1a5bbf;
+  }
+  
+  a[mat-stroked-button] {
+    border: 1px solid #2575fc;
+    color: #2575fc;
+  }
+  
+  a[mat-stroked-button]:hover {
+    background-color: #f0f4ff;
+  }

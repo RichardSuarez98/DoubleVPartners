@@ -1,0 +1,58 @@
+<h2>Personas</h2>
+<button style="background-color: #BE185D;" mat-flat-button routerLink="/persona/crear">Crear Personas</button>
+<button mat-stroked-button routerLink="">Cancelar</button>
+
+<mat-form-field appearance="fill">
+  <mat-label>Filter</mat-label>
+  <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
+</mat-form-field>
+
+<table mat-table [dataSource]="datasource" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="idPersona">
+      <th mat-header-cell *matHeaderCellDef> Id </th>
+      <td mat-cell *matCellDef="let element"> {{element.idPersona}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="nombres">
+      <th mat-header-cell *matHeaderCellDef> Nombres </th>
+      <td mat-cell *matCellDef="let element"> {{element.nombres}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="apellidos">
+        <th mat-header-cell *matHeaderCellDef> Apellidos </th>
+        <td mat-cell *matCellDef="let element"> {{element.apellidos}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="numeroIdentificacion">
+        <th mat-header-cell *matHeaderCellDef> Identificación </th>
+        <td mat-cell *matCellDef="let element"> {{element.numeroIdentificacion}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="email">
+        <th mat-header-cell *matHeaderCellDef> Email </th>
+        <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="tipoIdentificacion">
+        <th mat-header-cell *matHeaderCellDef> Tipo Identificación </th>
+        <td mat-cell *matCellDef="let element"> {{element.tipoIdentificacion}} </td>
+      </ng-container>
+  
+    <ng-container matColumnDef="Accion">
+      <th mat-header-cell *matHeaderCellDef> Acción </th>
+      <td mat-cell *matCellDef="let element">
+        <a mat-flat-button style="background-color: #BE185D;" routerLink="/persona/editar/{{element.idPersona}}">Editar</a> 
+        <button mat-flat-button  style="background-color: #D32F2F;" (click)="borrar(element.idPersona)">Borrar</button>
+      </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="columnasMostrar"></tr>
+    <tr mat-row *matRowDef="let row; columns: columnasMostrar;"></tr>
+  </table>
+
+  <mat-paginator [length]="100"
+              [pageSize]="5"
+              [pageSizeOptions]="[5, 10, 25, 100]"
+              aria-label="Select page">
+</mat-paginator>
