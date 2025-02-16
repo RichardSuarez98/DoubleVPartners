@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "YaxT3xW9Ir4Xzt811Goa1yqUIH2b2uN0llUVhqHvtTY=",
+  "Source": "DoubleVPartnersBackend",
+  "BasePath": "_content/DoubleVPartnersBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DoubleVPartnersBackend\\wwwroot",
+      "Source": "DoubleVPartnersBackend",
+      "ContentRoot": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\",
+      "BasePath": "_content/DoubleVPartnersBackend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\actores\\69373880-eaa1-44d9-945a-7323d1331e38.jpg",
+      "SourceId": "DoubleVPartnersBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\",
+      "BasePath": "_content/DoubleVPartnersBackend",
+      "RelativePath": "actores/69373880-eaa1-44d9-945a-7323d1331e38#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a8f0767aow",
+      "Integrity": "5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\69373880-eaa1-44d9-945a-7323d1331e38.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\actores\\9b813b16-6880-433a-a6bc-fa5c1724d05b.jpg",
+      "SourceId": "DoubleVPartnersBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\",
+      "BasePath": "_content/DoubleVPartnersBackend",
+      "RelativePath": "actores/9b813b16-6880-433a-a6bc-fa5c1724d05b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a8f0767aow",
+      "Integrity": "5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\9b813b16-6880-433a-a6bc-fa5c1724d05b.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "actores/69373880-eaa1-44d9-945a-7323d1331e38.a8f0767aow.jpg",
+      "AssetFile": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\actores\\69373880-eaa1-44d9-945a-7323d1331e38.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 21:28:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a8f0767aow"
+        },
+        {
+          "Name": "label",
+          "Value": "actores/69373880-eaa1-44d9-945a-7323d1331e38.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8="
+        }
+      ]
+    },
+    {
+      "Route": "actores/69373880-eaa1-44d9-945a-7323d1331e38.jpg",
+      "AssetFile": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\actores\\69373880-eaa1-44d9-945a-7323d1331e38.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 21:28:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8="
+        }
+      ]
+    },
+    {
+      "Route": "actores/9b813b16-6880-433a-a6bc-fa5c1724d05b.a8f0767aow.jpg",
+      "AssetFile": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\actores\\9b813b16-6880-433a-a6bc-fa5c1724d05b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 21:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a8f0767aow"
+        },
+        {
+          "Name": "label",
+          "Value": "actores/9b813b16-6880-433a-a6bc-fa5c1724d05b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8="
+        }
+      ]
+    },
+    {
+      "Route": "actores/9b813b16-6880-433a-a6bc-fa5c1724d05b.jpg",
+      "AssetFile": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\actores\\9b813b16-6880-433a-a6bc-fa5c1724d05b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 21:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5oP8lY9iqPnjvWroEDm+cimLKX6uAeUwg7abThwOwK8="
+        }
+      ]
+    }
+  ]
+}

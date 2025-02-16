@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEH4zLo2mGkKAPxH7xmHmVgAAAAACAAAAAAAQZgAAAAEAACAAAABEayCk9fhOhZs1hOCuX4ZMkX2Fu1e3cf5FfSR4LXaZ6AAAAAAOgAAAAAIAACAAAABK9MB/65wBGoXmWvIJmyQo0UH2qAalfeC5BW6WQLJO6yAAAACD8ZAOC2Nl0VgYVoGfaBFNu7kK690FBYgH03a8/Fnaw0AAAACZfoGVFuq/Mp0NKqKY08gVK6fynEbxk+TeOBWdVK4WU4+taUiujTPR2EIp5nzAKmyrpP6YyQiDDgt6DPXM2lTU</EncryptedPassword>
+    <_PublishTargetUrl>ftp://site14300.siteasp.net/ \wwwroot</_PublishTargetUrl>
+    <History>False|2025-01-28T19:31:14.4442131Z||;False|2025-01-28T14:28:56.2167873-05:00||;False|2025-01-28T14:28:01.3099592-05:00||;False|2025-01-28T14:27:45.8218612-05:00||;False|2025-01-28T14:25:38.2954472-05:00||;False|2025-01-20T14:38:22.8472990-05:00||;False|2025-01-20T14:37:30.2752442-05:00||;False|2025-01-04T19:56:57.7084633-05:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

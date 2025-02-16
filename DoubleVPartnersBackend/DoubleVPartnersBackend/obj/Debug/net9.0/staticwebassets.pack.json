@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\actores\\69373880-eaa1-44d9-945a-7323d1331e38.jpg",
+      "PackagePath": "staticwebassets\\actores\\69373880-eaa1-44d9-945a-7323d1331e38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\richard.suarez.PCIR-DESARR04\\Desktop\\Repo\\DoubleVPartners\\DoubleVPartnersBackend\\DoubleVPartnersBackend\\wwwroot\\actores\\9b813b16-6880-433a-a6bc-fa5c1724d05b.jpg",
+      "PackagePath": "staticwebassets\\actores\\9b813b16-6880-433a-a6bc-fa5c1724d05b.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DoubleVPartnersBackend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DoubleVPartnersBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.DoubleVPartnersBackend.props",
+      "PackagePath": "build\\DoubleVPartnersBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.DoubleVPartnersBackend.props",
+      "PackagePath": "buildMultiTargeting\\DoubleVPartnersBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.DoubleVPartnersBackend.props",
+      "PackagePath": "buildTransitive\\DoubleVPartnersBackend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

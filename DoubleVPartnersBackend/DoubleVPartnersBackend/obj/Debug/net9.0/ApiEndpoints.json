@@ -1,0 +1,259 @@
+[
+  {
+    "ContainingType": "DoubleVPartnersBackend.Controllers.PersonasController",
+    "Method": "Get",
+    "RelativePath": "api/Personas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Obtiene las personas registradas, si no existe la persona en la BD, mostrara un codigo de error",
+    "Summary": "Obtiene el listado de Personas registrados en BD"
+  },
+  {
+    "ContainingType": "DoubleVPartnersBackend.Controllers.PersonasController",
+    "Method": "Post",
+    "RelativePath": "api/Personas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personaUsuario",
+        "Type": "DoubleVPartnersBackend.DTOs.PersonaUsuarioCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Inserta una nueva persona y su usuario en la base de datos.",
+    "Summary": "Registra una nueva Persona y Usuario"
+  },
+  {
+    "ContainingType": "DoubleVPartnersBackend.Controllers.PersonasController",
+    "Method": "GetById",
+    "RelativePath": "api/Personas/{idPersona}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPersona",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "Description": "Obtiene la persona registrada por su ID. Si no existe la persona, mostrar\u00E1 un c\u00F3digo de error.",
+    "Summary": "Obtiene una Persona registrada en BD por su ID"
+  },
+  {
+    "ContainingType": "DoubleVPartnersBackend.Controllers.PersonasController",
+    "Method": "Put",
+    "RelativePath": "api/Personas/{idPersona}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPersona",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "personaDTO",
+        "Type": "DoubleVPartnersBackend.DTOs.PersonaCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Actualiza la informaci\u00F3n de una persona existente.",
+    "Summary": "Actualiza los datos de una Persona"
+  },
+  {
+    "ContainingType": "DoubleVPartnersBackend.Controllers.PersonasController",
+    "Method": "Delete",
+    "RelativePath": "api/Personas/{idPersona}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPersona",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Elimina una persona junto con su usuario asociado.",
+    "Summary": "Elimina una Persona y su Usuario"
+  },
+  {
+    "ContainingType": "DoubleVPartnersBackend.Controllers.PersonasController",
+    "Method": "PostPersona",
+    "RelativePath": "api/Personas/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "persona",
+        "Type": "DoubleVPartnersBackend.DTOs.PersonaCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Inserta una nueva persona en la base de datos.",
+    "Summary": "Registra una nueva Persona"
+  },
+  {
+    "ContainingType": "DoubleVPartnersBackend.Controllers.UsuariosController",
+    "Method": "Put",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioCreacionDTO",
+        "Type": "DoubleVPartnersBackend.DTOs.UsuarioCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Actualiza la informaci\u00F3n de un usuario existente.",
+    "Summary": "Actualiza la contrase\u00F1a de un Usuario"
+  },
+  {
+    "ContainingType": "DoubleVPartnersBackend.Controllers.UsuariosController",
+    "Method": "GetById",
+    "RelativePath": "api/Usuarios/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "DoubleVPartnersBackend.DTOs.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "Description": "Obtiene la persona registrada por su ID. Si no existe la persona, mostrar\u00E1 un c\u00F3digo de error.",
+    "Summary": "Obtiene una Persona registrada en BD por su ID"
+  },
+  {
+    "ContainingType": "DoubleVPartnersBackend.Controllers.UsuariosController",
+    "Method": "Login",
+    "RelativePath": "api/Usuarios/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DoubleVPartnersBackend.DTOs.CredencialesUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
